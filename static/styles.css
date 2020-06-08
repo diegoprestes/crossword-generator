@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+#grid {
+  width: 520px;
+  height: 520px;
+  margin: 8px 0;
+  border: 16px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slot {
+  width: 24px;
+  height: 24px;
+  background-color: #E9E9E9;
+  border: 1px solid #AAA;
+  font-size: 18px;
+  text-align: center;
+  font-family: monospace;
+}
